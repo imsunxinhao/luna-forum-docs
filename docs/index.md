@@ -11,7 +11,7 @@ actions:
     link: /quick-start
   - theme: alt
     text: 浏览完整文档
-    link: /welcome
+    link: /home
   - theme: alt
     text: 仓库
     link: https://github.com/imsunxinhao/luna-forum
