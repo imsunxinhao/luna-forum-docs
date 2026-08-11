@@ -13,9 +13,8 @@ export default defineConfig({
           { text: '快速开始', link: '/quick-start' }
         ]
       }
-    ]
-  },
-      search: {
+    ],
+    search: {
       provider: 'local',
       options: {
         translations: {
@@ -38,5 +37,6 @@ export default defineConfig({
     editLink: {
       pattern: 'https://github.com/imsunxinhao/luna-forum-docs/edit/main/:path',
       text: '在 GitHub 上编辑此页'
-    },
+    }
+  }
 })
