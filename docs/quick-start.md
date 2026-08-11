@@ -6,9 +6,7 @@
 
 建议使用 Ubuntu 或 Debian 作为部署 Luna Forum 的机器。若您熟悉其它系统也可使用其它系统（如 CentOS），不同系统的运行时安装步骤可能有所不同，此处仅提供 Ubuntu / Debian 系统的教程。
 
-~~（实际上还是因为我懒的写别的系统）~~
-
-::: warn 请注意
+::: warning 请注意
 我们不建议继续使用 `Ubuntu 20.04`、`Ubuntu 22.04`，Canonical 已停止对其的支持，请尽快升级到 Ubuntu 26.04 LTS。
 :::
 
