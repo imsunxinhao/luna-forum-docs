@@ -1,9 +1,11 @@
-import { defineConfigWithTheme } from 'vitepress'
-export default {
+import { defineConfig } from 'vitepress'
+
+export default defineConfig({
   lang: 'zh-CN',
   title: 'Luna Forum 文档',
   description: '基于 Fastify 和 TypeScript 构建的强大的论坛系统。',
-  sidebar: [
+  themeConfig: {
+    sidebar: [
       {
         text: '导航',
         items: [
@@ -12,4 +14,5 @@ export default {
         ]
       }
     ]
-}
+  }
+})
