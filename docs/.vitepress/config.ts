@@ -23,6 +23,7 @@ export default defineConfig({
               collapsed: true, 
               items: [
                 { text: '登录', link: '/dev/api_v1/login' },
+                { text: '注册', link: '/dev/api_v1/register' },
               ]
             },
             { text: '构建你的第一个 Luna Forum 插件', link: '/dev/first-plugin' },
