@@ -18,6 +18,7 @@ export default defineConfig({
           collapsed: true,
           items: [
             { text: '欢迎', link: '/dev/' },
+            { text: 'API 描述', link: '/dev/api_v1/' },
             {
               text: 'API 结构',
               collapsed: true, 
@@ -52,7 +53,7 @@ export default defineConfig({
       
     },
     editLink: {
-      pattern: 'https://github.com/imsunxinhao/luna-forum-docs/edit/main/:path',
+      pattern: 'https://github.com/imsunxinhao/luna-forum-docs/edit/main/docs/:path',
       text: '在 GitHub 上编辑此页'
     }
   }
