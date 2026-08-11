@@ -20,7 +20,8 @@ Endpoint: `/api/v1/login`
 ```json
 {
   "username": "imsunxinhao",
-  "password": "123456666666"
+  "password": "123456666666",
+  "email": "imsunxinhao@163.com"
 }
 ```
 
