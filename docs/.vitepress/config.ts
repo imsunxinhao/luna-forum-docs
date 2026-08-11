@@ -12,7 +12,22 @@ export default defineConfig({
           { text: '欢迎', link: '/home' },
           { text: '快速开始', link: '/quick-start' }
         ]
-      }
+      },
+      {
+          text: '开发文档',
+          collapsed: true,
+          items: [
+            { text: '欢迎', link: '/dev/' },
+            {
+              text: 'API 结构',
+              collapsed: true, 
+              items: [
+                { text: '登录', link: '/dev/api_v1/login' },
+              ]
+            },
+            { text: '构建你的第一个 Luna Forum 插件', link: '/dev/first-plugin' },
+          ]
+      },
     ],
     search: {
       provider: 'local',
@@ -33,6 +48,7 @@ export default defineConfig({
           }
         }
       }
+      
     },
     editLink: {
       pattern: 'https://github.com/imsunxinhao/luna-forum-docs/edit/main/:path',
