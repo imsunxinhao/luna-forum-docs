@@ -1,6 +1,6 @@
-# 登录 API 端点
+# 注册 API 端点
 
-Endpoint: `/api/v1/login`
+Endpoint: `/api/v1/register`
 
 请求方式：`POST`
 
